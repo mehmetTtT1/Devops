@@ -6,6 +6,7 @@ FROM openjdk:17
 
 ARG JAR_FILE=target/*.jar
 
+
 #rPojenin jar halini dockerın içine kopyala
 COPY ${JAR_FILE}  devops-app-2024.jar
 
