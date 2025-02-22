@@ -1,12 +1,12 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: my_pod_3
+  name: my-pod-create
   labels:
-    name: my_pod_3
+    name: my-pod-create
 spec:
   containers:
-  - name: my_pod_3
+  - name: my-pod-create
     image: mehmetarslan22/devops-001-hello
     resources:
       limits:
@@ -19,12 +19,12 @@ spec:
 apiVersion: v1
 kind: Pod
 metadata:
-  name: my_pod_2
+  name: my-pod-create-2
   labels:
-    name: my_pod_2
+    name: my-pod-create-2
 spec:
   containers:
-  - name: my_pod_2
+  - name: my-pod-create-2
     image: mehmetarslan22/devops-001-hello
     resources:
       limits:
